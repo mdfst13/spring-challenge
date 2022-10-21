@@ -19,7 +19,7 @@ EOSQL
       die('Could not verify state');
     }
 
-    if (!preg_match('{^\d{5}(?:\d{4})?$}', $_POST['zip'])) {
+    if (!preg_match('{^\d{5}(?:-\d{4})?$}', $_POST['zip'])) {
       error_log("Invalid zip:  [{$_POST['zip']}]");
       die('Invalid zip');
     }
