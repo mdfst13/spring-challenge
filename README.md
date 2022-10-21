@@ -36,4 +36,4 @@ A small web application that collects information using an online form.  The web
 
 ## Usage
 
-Visit companies.php or employees.php to use.
+Visit companies.php or employees.php to use.  You can add companies or employees by clicking links on the companies.php page (since employees may only be added to companies).
