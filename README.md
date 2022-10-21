@@ -24,7 +24,8 @@ A small web application that collects information using an online form.  The web
 4.  More restrictions on input.
 5.  Larger UX design (e.g. how does one switch between companies and employees).
 6.  Move configuration out of web root.
-7.  Verify that it works in a folder; fix if not.  
+7.  Verify that it works in a folder; fix if not.
+8.  Widgets (e.g. table).
 
 ## Installing
 
@@ -32,3 +33,7 @@ A small web application that collects information using an online form.  The web
 2.  Use phpMyAdmin or an alternative to run the install.sql file in that database.
 3.  Upload files into a web server (tested in root of domain).  
 4.  Visit companies.php or employees.php
+
+## Usage
+
+Visit companies.php or employees.php to use.
